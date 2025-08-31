@@ -31,7 +31,7 @@ jobs:
           run: echo "Value of secret matches - ${{ secrets.azure-profile  == 'Placeholder' }}"
   
         - name: Print name of App Service to deploy to
-          run: echo "App will be deployed to ${{ imputs.app-name }}"
+          run: echo "App will be deployed to ${{ inputs.app-name }}"
         
         - name: List files in root directory
           run: |
